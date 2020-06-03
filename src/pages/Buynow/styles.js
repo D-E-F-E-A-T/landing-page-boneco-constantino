@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
+import backgroundImage from "../../assets/background-buynow.png";
+
 export const Container = styled.div`
-  padding-top: 4%;
+  background-image: url(${backgroundImage});
+  padding-top: 2.5%;
   text-align: center;
   background-color: #fff;
 
@@ -9,7 +12,7 @@ export const Container = styled.div`
   max-width: 1366px;
 
   margin: auto;
-  padding-bottom: 4%;
+  padding-bottom: 2.5%;
 `;
 
 export const Button = styled.button`

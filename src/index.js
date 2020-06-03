@@ -14,6 +14,7 @@ import ColorsAvailable from "./pages/ColorsAvailable";
 import Wound from "./pages/Wound";
 import Buynow from "./pages/Buynow";
 import Characteristics from "./pages/Characteristics";
+import ShippingWays from "./pages/ShippingWays";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,11 +23,12 @@ ReactDOM.render(
     <Solution />
     <Demonstracion />
     <KnowHow />
-    {/* <Teach /> */}
+    <Teach />
     <ColorsAvailable />
     <Wound />
     <Buynow />
     <Characteristics />
+    <ShippingWays />
   </React.StrictMode>,
 
   document.getElementById("root")
