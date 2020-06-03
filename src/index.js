@@ -1,17 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+/* eslint-disable linebreak-style */
+import React from "react";
+
+import ReactDOM from "react-dom";
+
+import "./global.css";
+import Header from "./pages/Header";
+import Dissatisfied from "./pages/Dissatisfied";
+import Solution from "./pages/Solution";
+import Demonstracion from "./pages/Demonstracion";
+import KnowHow from "./pages/KnowHow";
+import Teach from "./pages/Teach";
+import ColorsAvailable from "./pages/ColorsAvailable";
+import Wound from "./pages/Wound";
+import Buynow from "./pages/Buynow";
+import Characteristics from "./pages/Characteristics";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Dissatisfied />
+    <Solution />
+    <Demonstracion />
+    <KnowHow />
+    {/* <Teach /> */}
+    <ColorsAvailable />
+    <Wound />
+    <Buynow />
+    <Characteristics />
   </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+  document.getElementById("root")
+);
