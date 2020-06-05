@@ -9,7 +9,7 @@ export const Container = styled.div`
   max-width: 1300px;
 
   margin: auto;
-  padding-bottom: 2%;
+  padding-bottom: 6%;
   padding-top: 2%;
 `;
 

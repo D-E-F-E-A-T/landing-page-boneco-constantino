@@ -18,6 +18,7 @@ import ShippingWays from "./pages/ShippingWays";
 import Clients from "./pages/Clients";
 import Buy from "./pages/Buy";
 import Asks from "./pages/Asks";
+import WhatTheySaiyng from "./pages/WhatTheySaiyng";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,6 +33,7 @@ ReactDOM.render(
     <Buynow />
     <Characteristics />
     <ShippingWays />
+    <WhatTheySaiyng />
     <Clients />
     <Buy />
     <Asks />
