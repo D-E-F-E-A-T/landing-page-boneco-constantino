@@ -15,6 +15,9 @@ import Wound from "./pages/Wound";
 import Buynow from "./pages/Buynow";
 import Characteristics from "./pages/Characteristics";
 import ShippingWays from "./pages/ShippingWays";
+import Clients from "./pages/Clients";
+import Buy from "./pages/Buy";
+import Asks from "./pages/Asks";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +32,9 @@ ReactDOM.render(
     <Buynow />
     <Characteristics />
     <ShippingWays />
+    <Clients />
+    <Buy />
+    <Asks />
   </React.StrictMode>,
 
   document.getElementById("root")
