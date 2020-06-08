@@ -24,10 +24,11 @@ function Header() {
           Boneco sparring usado no treino de repetições de técnicas e movimentos
           de Jiu Jitsu, MMA, Judô e outras lutas de chão.
         </Text>
-
-        <Button>
-          <TextButton>COMPRAR</TextButton>
-        </Button>
+        <a href="#buy">
+          <Button>
+            <TextButton>COMPRAR</TextButton>
+          </Button>
+        </a>
       </div>
 
       <div>

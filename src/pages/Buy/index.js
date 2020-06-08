@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import bonecoBranco from "../../assets/boneco-branco.png";
 import bonecoVermelho from "../../assets/boneco-vermelho.png";
@@ -44,8 +44,68 @@ import {
 } from "./styles";
 
 function Buy() {
+  const cores = [bonecoPreto, bonecoCinza, bonecoVermelho, bonecoBranco];
+  const coresNome = ["Preto", "Cinza", "Vermelho", "Branco"];
+
+  const [quantidade, setQuantidade] = useState(1);
+  const [color, setColor] = useState([cores[0], 0, coresNome[0]]);
+
+  function adicionarQuantidade() {
+    setQuantidade(quantidade + 1);
+  }
+
+  function diminuirQuantidade() {
+    if (quantidade <= 1) {
+      return;
+    }
+    setQuantidade(quantidade - 1);
+  }
+
+  function diminuiCor() {
+    const numberColor = color[1];
+
+    if (numberColor <= 0) {
+      setColor([cores[3], 3, coresNome[3]]);
+      return;
+    }
+    setColor([
+      cores[numberColor - 1],
+      numberColor - 1,
+      coresNome[numberColor - 1],
+    ]);
+  }
+
+  function adicionaCor() {
+    const numberColor = color[1];
+
+    if (numberColor >= 3) {
+      setColor([cores[0], 0, coresNome[0]]);
+      return;
+    }
+    setColor([
+      cores[numberColor + 1],
+      numberColor + 1,
+      coresNome[numberColor + 1],
+    ]);
+  }
+  function colocaPreto() {
+    setColor([cores[0], 0, coresNome[0]]);
+  }
+
+  function colocaCinza() {
+    setColor([cores[1], 1, coresNome[1]]);
+  }
+
+  function colocaVermelho() {
+    setColor([cores[2], 2, coresNome[2]]);
+  }
+
+  function colocaBranco() {
+    setColor([cores[3], 3, coresNome[3]]);
+  }
+
   return (
-    <Container>
+    <Container id="buy">
       <HeaderBar>
         <TitleHeader>FAZER PEDIDO</TitleHeader>
       </HeaderBar>
@@ -54,39 +114,40 @@ function Buy() {
         <BonecoBar>
           <ContainerHorizontal>
             <Icon>
-              <AiOutlineLeft size={40} color="#000" />
+              <AiOutlineLeft size={40} color="#000" onClick={diminuiCor} />
             </Icon>
-            <BonecoImage src={bonecoBranco} />
+            <BonecoImage src={color[0]} />
             <Icon>
-              <AiOutlineRight size={40} color="#000" />
+              <AiOutlineRight size={40} color="#000" onClick={adicionaCor} />
             </Icon>
           </ContainerHorizontal>
-          <TitleBonceco>Branco</TitleBonceco>
+          <TitleBonceco>{color[2]}</TitleBonceco>
         </BonecoBar>
 
         <ContainerMenus>
           <MenuTopBar>
             <TitleTopBar>Escolher cores:</TitleTopBar>
             <ColorBar>
-              <ColorOptionBar>
+              <ColorOptionBar onClick={colocaPreto}>
                 <ColorTitle>Preto</ColorTitle>
               </ColorOptionBar>
-              <ColorOptionBar2>
+              <ColorOptionBar2 onClick={colocaCinza}>
                 <ColorTitle>Cinza</ColorTitle>
               </ColorOptionBar2>
-              <ColorOptionBar3>
+              <ColorOptionBar3 onClick={colocaVermelho}>
                 <ColorTitle>Vermelho</ColorTitle>
               </ColorOptionBar3>
-              <ColorOptionBar4>
+              <ColorOptionBar4 onClick={colocaBranco}>
                 <ColorTitle>Branco</ColorTitle>
               </ColorOptionBar4>
             </ColorBar>
 
             <TitleHowmuch>Quantidade:</TitleHowmuch>
             <HowMuchBar>
-              <FiMinus size={20} color="#000" />
-              <HowMuchTitle>4</HowMuchTitle>
-              <FiPlus size={20} color="#000" />
+              <FiMinus size={20} color="#000" onClick={diminuirQuantidade} />
+
+              <HowMuchTitle>{quantidade}</HowMuchTitle>
+              <FiPlus size={20} color="#000" onClick={adicionarQuantidade} />
             </HowMuchBar>
           </MenuTopBar>
 

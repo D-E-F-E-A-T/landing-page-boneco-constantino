@@ -29,9 +29,11 @@ function Teach() {
           alunos.
         </Text>
 
-        <Button>
-          <TextButton>COMPRAR AGORA</TextButton>
-        </Button>
+        <a href="#buy">
+          <Button>
+            <TextButton>COMPRAR AGORA</TextButton>
+          </Button>
+        </a>
       </TextBar>
 
       <ImageBar>

@@ -17,10 +17,11 @@ function Demonstracion() {
           allowfullscreen
         ></iframe>
       </VideoBar>
-
-      <Button>
-        <TextButton>QUERO COMPRAR AGORA!</TextButton>
-      </Button>
+      <a href="#buy">
+        <Button>
+          <TextButton>QUERO COMPRAR AGORA!</TextButton>
+        </Button>
+      </a>
     </Container>
   );
 }

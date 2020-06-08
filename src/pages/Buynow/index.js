@@ -5,9 +5,11 @@ import { Container, Button, TextButton } from "./styles";
 function Buynow() {
   return (
     <Container>
-      <Button>
-        <TextButton>ADQUIRIR O BONECO</TextButton>
-      </Button>
+      <a href="#buy">
+        <Button>
+          <TextButton>ADQUIRIR O BONECO</TextButton>
+        </Button>
+      </a>
     </Container>
   );
 }
