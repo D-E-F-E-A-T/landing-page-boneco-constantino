@@ -1,0 +1,35 @@
+.container {
+  background-color: #fff;
+
+  width: 100%;
+  max-width: 1366px;
+
+  margin: auto;
+  padding-bottom: 2.5%;
+  color: #000;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 24px;
+  align-self: center;
+  margin-left: 36%;
+}
+
+.titlePrazo {
+  margin-right: 25px;
+  font-size: 1.2rem;
+}
+
+.select {
+  margin-top: -4px;
+  padding: 12px;
+  font-size: 0.7rem;
+}
+
+.entrega {
+  margin-left: 20px;
+  margin-top: 3px;
+  font-size: 1rem;
+  color: #bc1010;
+}

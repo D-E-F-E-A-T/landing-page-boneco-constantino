@@ -11,6 +11,8 @@ import {
   Boneco2,
 } from "./styles";
 
+// import "styles.css";
+
 import bonecoImage1 from "../../assets/boneco-vermelho-left.png";
 import bonecoImage2 from "../../assets/boneco-branco-left.png";
 

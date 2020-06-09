@@ -14,6 +14,7 @@ import Characteristics from "../Characteristics";
 import ShippingWays from "../ShippingWays";
 import Clients from "../Clients";
 import Buy from "../Buy";
+import BuyFunctions from "../BuyFunctions";
 import Asks from "../Asks";
 import WhatTheySaiyng from "../WhatTheySaiyng";
 
@@ -31,9 +32,10 @@ function Home() {
       <Buynow />
       <Characteristics />
       <ShippingWays />
-      <WhatTheySaiyng />
+      {/* <WhatTheySaiyng /> */}
       <Clients />
       <Buy />
+      <BuyFunctions />
       <Asks />
     </div>
   );
