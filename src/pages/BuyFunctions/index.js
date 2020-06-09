@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import "./styles.css";
+import formasdepagamento from "../../assets/Formas-de-pagamento.png";
 
 function BuyFunctions() {
   const [praze, setPraze] = useState(0);
@@ -54,6 +55,10 @@ function BuyFunctions() {
         </select>
 
         <p className="entrega">{entrega}</p>
+      </div>
+
+      <div className="pagamento">
+        <img src={formasdepagamento} />
       </div>
     </div>
   );

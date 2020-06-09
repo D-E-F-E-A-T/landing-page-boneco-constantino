@@ -23,7 +23,7 @@ export const TitleHeader = styled.p`
 `;
 
 export const ContainerItens = styled.div`
-  margin-top: 7%;
+  margin-top: 10%;
   display: flex;
 `;
 
@@ -183,14 +183,27 @@ export const BuyPriceBlack = styled.span`
 `;
 
 export const Button = styled.button`
-  padding: 3% 10%;
+  padding: 3% 26%;
+  background-color: #bc1010;
+  box-shadow: 0 8px #6e0b0b;
+  border: 0px;
+  margin: 20% 0 2% -15px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const Button1 = styled.button`
+  padding: 3% 26%;
   background-color: #bc1010;
   box-shadow: 0 8px #6e0b0b;
   border: 0px;
   margin: 20% 0 2% 0;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const TextButton = styled.p`
   color: #fff;
+  /* margin-right: 15px; */
   font-weight: bold;
 `;

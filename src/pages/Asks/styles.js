@@ -8,13 +8,13 @@ export const Container = styled.div`
   max-width: 1366px;
 
   margin: auto;
-  padding-top: 15%;
+  padding-top: 7%;
   padding-bottom: 20%;
 `;
 
 export const Title = styled.p`
   color: #bc1010;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   font-size: 2rem;
   padding: 30px;
@@ -29,6 +29,8 @@ export const AsksBar = styled.div`
 
 export const LineBar = styled.div`
   width: 45%;
+  padding-right: -50%;
+  padding-left: -50%;
   margin-left: 35px;
   margin-right: 35px;
 `;
@@ -38,13 +40,16 @@ export const TitleBar = styled.div`
   justify-content: space-between;
   background-color: #fff;
   padding: 20px;
-  border: 1px solid #bc1010;
+  border: 1px solid #000;
   padding-right: 5%;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
 `;
 
 export const TitleAsk = styled.p`
-  color: #bc1010;
-  font-weight: bold;
+  color: #000;
+  font-weight: 300;
 `;
 
 export const AnswerBar = styled.div`

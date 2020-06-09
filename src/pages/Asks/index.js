@@ -46,7 +46,7 @@ function Asks() {
         <LineBar>
           <TitleBar onClick={AnswerShown1}>
             <TitleAsk>Como encho o meu boneco constantino?</TitleAsk>{" "}
-            <FaChevronDown size={30} color="#bc1010" />
+            <FaChevronDown size={30} color="#000" />
           </TitleBar>
 
           <AnswerBar className="hide" id="shown1">
@@ -62,7 +62,7 @@ function Asks() {
         <LineBar>
           <TitleBar onClick={AnswerShown2}>
             <TitleAsk>Qual o prazo de entrega?</TitleAsk>{" "}
-            <FaChevronDown size={30} color="#bc1010" />
+            <FaChevronDown size={30} color="#000" />
           </TitleBar>
 
           <AnswerBar className="hide" id="shown2">
@@ -79,7 +79,7 @@ function Asks() {
         <LineBar>
           <TitleBar onClick={AnswerShown3}>
             <TitleAsk>Quais Materiais posso encher o boneco?</TitleAsk>{" "}
-            <FaChevronDown size={30} color="#bc1010" />
+            <FaChevronDown size={30} color="#000" />
           </TitleBar>
 
           <AnswerBar className="hide" id="shown3">
@@ -97,24 +97,50 @@ function Asks() {
 
         <LineBar>
           <TitleBar onClick={AnswerShown4}>
-            <TitleAsk>Quais os efeitos do Rejuveness Hair?</TitleAsk>{" "}
-            <FaChevronDown size={30} color="#bc1010" />
+            <TitleAsk>O que eu posso treinar no boneco?</TitleAsk>{" "}
+            <FaChevronDown size={30} color="#000" />
           </TitleBar>
 
           <AnswerBar className="hide" id="shown4">
             <AnswerText>
-              O Rejuveness vai ser o seu maior aliado dos seus cabelos em todos
-              os momentos, porque ele potencializa o crescimento até 5X,
-              deixando-os mais brilhantes, sedosos e menos quebradiços em tempo
-              recorde. Deixa seu cabelo livre do frizz, repara as pontas duplas
-              e combate a queda capilar até 80% porque sua fórmula exclusiva é
-              fonte de vitaminas e minerais essenciais que nutrem o corpo e
-              reparam os danos causados pela falta de nutrientes e pela correria
-              do dia a dia. O Rejuveness Hair também vai fortalecer suas unhas,
-              fazendo com que elas cresçam e fiquem muito mais resistentes e
-              saudáveis. Além disso o Rejuvenesse Hair com sua fórmula exclusiva
-              vai auxiliar na produção continua de colágeno deixando sua pele
-              firme e forte, com aspecto mais jovem e linda.
+              O prazo de entrega varia por região e o tipo de envio (cheio ou
+              vazio), veja acima na opção "prazo de entrega" e selecione sua
+              região para visualizar seu prazo.
+            </AnswerText>
+          </AnswerBar>
+        </LineBar>
+      </AsksBar>
+
+      <AsksBar>
+        <LineBar>
+          <TitleBar onClick={AnswerShown5}>
+            <TitleAsk>Ele fica em pé? É articulado?</TitleAsk>{" "}
+            <FaChevronDown size={30} color="#000" />
+          </TitleBar>
+
+          <AnswerBar className="hide" id="shown5">
+            <AnswerText>
+              O Boneco Constantino não fica em pé e também não é articulado. O
+              constantino é fixo pois simula o fortalecimento de uma pessoa
+              quando resiste uma técnica ou finalização, sendo assim, mais
+              eficiente para o treinamento.
+            </AnswerText>
+          </AnswerBar>
+        </LineBar>
+
+        <LineBar>
+          <TitleBar onClick={AnswerShown6}>
+            <TitleAsk>
+              O boneco pode ser usado para quais artes marciais?
+            </TitleAsk>{" "}
+            <FaChevronDown size={30} color="#000" />
+          </TitleBar>
+
+          <AnswerBar className="hide" id="shown6">
+            <AnswerText>
+              O Boneco Constantino é recomendado para lutas de chão como
+              JiuJitsu, MMA, e até mesmo para judô, também é usado como saco de
+              pancadas no Boxe e Muay Thai.
             </AnswerText>
           </AnswerBar>
         </LineBar>
