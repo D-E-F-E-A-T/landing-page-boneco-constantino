@@ -15,7 +15,6 @@ function BuyFunctions() {
     const e = document.getElementById("prazo");
     const value = e.options[e.selectedIndex].value;
     setPraze(value);
-    console.log(praze);
     mostraEntrega();
   }
 

@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   margin: auto;
   padding-top: 7%;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
 `;
 
 export const Title = styled.p`

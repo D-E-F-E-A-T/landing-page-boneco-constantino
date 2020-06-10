@@ -5,8 +5,6 @@ import bonecoVermelho from "../../assets/boneco-vermelho.png";
 import bonecoCinza from "../../assets/boneco-cinza.png";
 import bonecoPreto from "../../assets/boneco-preto.png";
 
-import { FiShoppingCart } from "react-icons/fi";
-
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 import { FiMinus, FiPlus } from "react-icons/fi";
@@ -165,7 +163,6 @@ function Buy() {
 
               <Button>
                 <TextButton>COMPRAR</TextButton>
-                {/* <FiShoppingCart color="#fff" /> */}
               </Button>
             </BuyBar>
 
@@ -180,7 +177,6 @@ function Buy() {
 
               <Button1>
                 <TextButton>COMPRAR</TextButton>
-                {/* <FiShoppingCart color="#fff" /> */}
               </Button1>
             </BuyBarFull>
           </MenuBar>
