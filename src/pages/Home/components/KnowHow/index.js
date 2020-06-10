@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, TextsBar, Title, Text, ImageBar, Image } from "./styles";
 
-import brainImage from "../../assets/brain.png";
+import brainImage from "../../../../assets/brain.png";
 
 function KnowHow() {
   return (

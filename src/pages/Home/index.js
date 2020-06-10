@@ -1,22 +1,22 @@
 /* eslint-disable linebreak-style */
 import React from "react";
 
-import Header from "../Header";
-import Dissatisfied from "../Dissatisfied";
-import Solution from "../Solution";
-import Demonstracion from "../Demonstracion";
-import KnowHow from "../KnowHow";
-import Teach from "../Teach";
-import ColorsAvailable from "../ColorsAvailable";
-import Wound from "../Wound";
-import Buynow from "../Buynow";
-import Characteristics from "../Characteristics";
-import ShippingWays from "../ShippingWays";
-import Clients from "../Clients";
-import Buy from "../Buy";
-import BuyFunctions from "../BuyFunctions";
-import Asks from "../Asks";
-import WhatTheySaiyng from "../WhatTheySaiyng";
+import Header from "./components/Header";
+import Dissatisfied from "./components/Dissatisfied";
+import Solution from "./components/Solution";
+import Demonstracion from "./components/Demonstracion";
+import KnowHow from "./components/KnowHow";
+import Teach from "./components/Teach";
+import ColorsAvailable from "./components/ColorsAvailable";
+import Wound from "./components/Wound";
+import Buynow from "./components/Buynow";
+import Characteristics from "./components/Characteristics";
+import ShippingWays from "./components/ShippingWays";
+import Clients from "./components/Clients";
+import Buy from "./components/Buy";
+import BuyFunctions from "./components/BuyFunctions";
+import Asks from "./components/Asks";
+import WhatTheySaiyng from "./components/WhatTheySaiyng";
 
 function Home() {
   return (

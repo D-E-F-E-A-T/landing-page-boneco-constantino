@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Image, TextBar, Title, Text } from "./styles";
 
-import ImageWound from "../../assets/lesaso.png";
+import ImageWound from "../../../../assets/lesaso.png";
 
 function Wound() {
   return (

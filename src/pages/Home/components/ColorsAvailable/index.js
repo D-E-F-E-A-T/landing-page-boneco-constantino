@@ -15,10 +15,10 @@ import {
   TitleBonecoPreto,
 } from "./styles";
 
-import bonecoBranco from "../../assets/boneco-branco.png";
-import bonecoVermelho from "../../assets/boneco-vermelho.png";
-import bonecoCinza from "../../assets/boneco-cinza.png";
-import bonecoPreto from "../../assets/boneco-preto.png";
+import bonecoBranco from "../../../../assets/boneco-branco.png";
+import bonecoVermelho from "../../../../assets/boneco-vermelho.png";
+import bonecoCinza from "../../../../assets/boneco-cinza.png";
+import bonecoPreto from "../../../../assets/boneco-preto.png";
 
 function ColorsAvailable() {
   return (

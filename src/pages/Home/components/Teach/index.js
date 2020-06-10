@@ -1,6 +1,6 @@
 import React from "react";
 
-import ClientsImage from "../../assets/clients.png";
+import ClientsImage from "../../../../assets/clients.png";
 
 import {
   Container,

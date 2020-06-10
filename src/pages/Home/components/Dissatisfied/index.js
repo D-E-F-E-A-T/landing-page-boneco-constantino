@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Image, Text } from "./styles";
 
-import DislikeImage from "../../assets/dislike.png";
+import DislikeImage from "../../../../assets/dislike.png";
 
 function Dissatisfied() {
   return (

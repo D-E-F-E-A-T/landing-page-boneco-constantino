@@ -1,10 +1,10 @@
 import React from "react";
 
-import KG from "../../assets/Kg.png";
-import Escudo from "../../assets/Escudo.png";
-import Garantia from "../../assets/Garantia.png";
-import Frete from "../../assets/Frete-grátis.png";
-import Prof from "../../assets/Professores-e-Alunos.png";
+import KG from "../../../../assets/Kg.png";
+import Escudo from "../../../../assets/Escudo.png";
+import Garantia from "../../../../assets/Garantia.png";
+import Frete from "../../../../assets/Frete-grátis.png";
+import Prof from "../../../../assets/Professores-e-Alunos.png";
 
 import {
   Container,

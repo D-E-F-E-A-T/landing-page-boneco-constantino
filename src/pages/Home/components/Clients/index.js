@@ -10,16 +10,16 @@ import {
   ClientImg,
 } from "./styles";
 
-import Instagram from "../../assets/instagram-icons.png";
+import Instagram from "../../../../assets/instagram-icons.png";
 
-import Client1 from "../../assets/clients1.png";
-import Client2 from "../../assets/clients2.png";
-import Client3 from "../../assets/clients3.png";
-import Client4 from "../../assets/clients4.png";
-import Client5 from "../../assets/clients5.png";
-import Client6 from "../../assets/clients6.png";
-import Client7 from "../../assets/clients7.png";
-import Client8 from "../../assets/clients8.png";
+import Client1 from "../../../../assets/clients1.png";
+import Client2 from "../../../../assets/clients2.png";
+import Client3 from "../../../../assets/clients3.png";
+import Client4 from "../../../../assets/clients4.png";
+import Client5 from "../../../../assets/clients5.png";
+import Client6 from "../../../../assets/clients6.png";
+import Client7 from "../../../../assets/clients7.png";
+import Client8 from "../../../../assets/clients8.png";
 
 function Clients() {
   return (
